@@ -1,0 +1,10 @@
+..\out\nrf_gpio.o: ..\project_nrf51\Basic\Include_C\nrf_gpio.c
+..\out\nrf_gpio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\nrf_gpio.o: ..\project_nrf51\Basic\Include_H\nrf51.h
+..\out\nrf_gpio.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\nrf_gpio.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmInstr.h
+..\out\nrf_gpio.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmFunc.h
+..\out\nrf_gpio.o: ..\project_nrf51\Basic\Include_H\system_nrf51.h
+..\out\nrf_gpio.o: ..\project_nrf51\Basic\Include_H\nrf_gpio.h
+..\out\nrf_gpio.o: ..\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+..\out\nrf_gpio.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h

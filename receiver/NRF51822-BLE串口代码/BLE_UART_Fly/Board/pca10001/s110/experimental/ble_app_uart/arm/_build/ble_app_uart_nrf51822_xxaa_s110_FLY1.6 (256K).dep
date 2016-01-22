@@ -1,0 +1,240 @@
+Dependencies for Project 'ble_app_uart', Target 'nrf51822_xxaa_s110_FLY1.6 (256K)': (DO NOT MODIFY !)
+F (.\..\..\..\..\..\..\Source\templates\arm\arm_startup_nrf51.s)(0x56299C95)(--cpu Cortex-M0 --li -g --apcs=interwork -I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (.\..\..\..\..\..\..\Source\templates\system_nrf51.c)(0x56299C37)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nrf.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+F (..\main_fly.c)(0x56A0C105)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\main_fly.o --omf_browse .\_build\main_fly.crf --depend .\_build\main_fly.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\nrf.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\s110\ble_hci.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\ble\ble_advdata.h)(0x56299C6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x56299C5A)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\ble\ble_conn_params.h)(0x56299C6A)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x56299CD5)
+I (..\..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x56299C4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\nrf_sdm.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_error_sdm.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x56299C7E)
+I (..\..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x56299C4C)
+I (..\..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x56299C4C)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x56299C7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\app_common\app_button.h)(0x56299C82)
+I (..\..\..\..\..\..\Include\nrf_gpio.h)(0x56299C2E)
+I (..\ble_nus.h)(0x56299CEF)
+I (..\..\..\..\..\..\Include\simple_uart.h)(0x56299C2A)
+I (..\..\..\..\..\..\Include\boards.h)(0x56299C34)
+I (..\..\..\..\..\..\Include\boards/pca10001.h)(0x56299C60)
+I (..\..\..\..\..\..\Include\ble\ble_error_log.h)(0x56299C65)
+I (..\..\..\..\..\..\Include\ble\ble_flash.h)(0x56299C64)
+I (..\..\..\..\..\..\Include\ble\ble_debug_assert_handler.h)(0x56299C68)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x56299C2E)
+F (..\..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x56299CBC)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x56299CD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+F (..\ble_nus.c)(0x56299CF0)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_nus.o --omf_browse .\_build\ble_nus.crf --depend .\_build\ble_nus.d)
+I (..\ble_nus.h)(0x56299CEF)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x56299C5A)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x56299CD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+F (..\..\..\..\..\..\Source\ble\ble_advdata.c)(0x56299C41)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
+I (..\..\..\..\..\..\Include\ble\ble_advdata.h)(0x56299C6F)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x56299C5A)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x56299CD5)
+F (..\..\..\..\..\..\Source\ble\ble_conn_params.c)(0x56299C41)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
+I (..\..\..\..\..\..\Include\ble\ble_conn_params.h)(0x56299C6A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x56299C5A)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x56299CD5)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\s110\ble_hci.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x56299C7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x56299C7E)
+F (..\..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x56299C38)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
+I (..\..\..\..\..\..\Include\sd_common\softdevice_handler.h)(0x56299C4C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\s110\nrf_sdm.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x56299C54)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\nrf_error_sdm.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x56299C7E)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\sd_common\ble_stack_handler_types.h)(0x56299C4C)
+I (..\..\..\..\..\..\Include\s110\ble.h)(0x56299C5A)
+I (..\..\..\..\..\..\Include\s110\ble_ranges.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_types.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\s110\ble_gap.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_l2cap.h)(0x56299C56)
+I (..\..\..\..\..\..\Include\s110\ble_err.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatt.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\s110\ble_gattc.h)(0x56299C58)
+I (..\..\..\..\..\..\Include\s110\ble_gatts.h)(0x56299C57)
+I (..\..\..\..\..\..\Include\sd_common\ant_stack_handler_types.h)(0x56299C4C)
+I (..\..\..\..\..\..\Include\nordic_common.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\nrf_assert.h)(0x56299C2E)
+F (..\..\..\..\..\..\Source\simple_uart\simple_uart.c)(0x56299C38)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nrf.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x56299C31)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\simple_uart.h)(0x56299C2A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x56299C2E)
+I (..\..\..\..\..\..\Include\nrf_gpio.h)(0x56299C2E)
+F (..\..\..\..\..\..\Source\app_common\app_timer.c)(0x56299C48)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork --enum_is_int -I.. -I..\..\..\..\..\..\Include -I..\..\..\..\..\..\Include\app_common -I..\..\..\..\..\..\Include\ble -I..\..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\..\Include\s110 -I..\..\..\..\..\..\Include\sd_common -I..\..\..\..\..\..\Include\gcc --c99-I Z:\Code\minidrone\RF\receiver\NRF51822-BLE串口代码\BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51 -DBOARD_PCA10001 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD-o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
+I (..\..\..\..\..\..\Include\app_common\app_timer.h)(0x56299C7C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\app_common\app_error.h)(0x56299C81)
+I (..\..\..\..\..\..\Include\s110\nrf_error.h)(0x56299C55)
+I (..\..\..\..\..\..\Include\app_common\app_util.h)(0x56299C79)
+I (..\..\..\..\..\..\Include\compiler_abstraction.h)(0x56299C32)
+I (..\..\..\..\..\..\Include\nrf51.h)(0x56299C2F)
+I (..\..\..\..\..\..\Include\gcc\core_cm0.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmInstr.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\gcc\core_cmFunc.h)(0x56299C5B)
+I (..\..\..\..\..\..\Include\system_nrf51.h)(0x56299C26)
+I (..\..\..\..\..\..\Include\app_common\app_scheduler.h)(0x56299C7E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (..\..\..\..\..\..\Include\nrf51_bitfields.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\s110\nrf_soc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_svc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\s110\nrf_error_soc.h)(0x56299C54)
+I (..\..\..\..\..\..\Include\nrf_delay.h)(0x56299C2E)
+I (..\..\..\..\..\..\Include\nrf.h)(0x56299C30)
+I (..\..\..\..\..\..\Include\nrf51_deprecated.h)(0x56299C31)

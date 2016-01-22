@@ -1,0 +1,185 @@
+Dependencies for Project 'radio_rx', Target 'Target 1': (DO NOT MODIFY !)
+F (..\project_nrf51\Basic\startup\arm_startup_nrf51.s)(0x54588502)(--cpu Cortex-M0 -g --apcs=interwork -I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"--list ..\out\arm_startup_nrf51.lst --xref -o ..\out\arm_startup_nrf51.o --depend ..\out\arm_startup_nrf51.d)
+F (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x545884B9)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\project_nrf51822.o --omf_browse ..\out\project_nrf51822.crf --depend ..\out\project_nrf51822.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5D)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x55437E4E)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x544F9F99)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+I (..\user\nrf_adc.h)(0x54464392)
+I (..\user\pm.h)(0x545239EE)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x5243EBD8)
+F (..\project_nrf51\Basic\startup\system_nrf51.c)(0x527729A2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\system_nrf51.o --omf_browse ..\out\system_nrf51.crf --depend ..\out\system_nrf51.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+F (..\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c)(0x55444DD3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\nrf_delay.o --omf_browse ..\out\nrf_delay.crf --depend ..\out\nrf_delay.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (..\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.h)(0x5243EB66)
+F (.\led.c)(0x55431CCE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\led.o --omf_browse ..\out\led.crf --depend ..\out\led.d)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (led.h)(0x56190145)
+F (.\pm.c)(0x545239ED)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\pm.o --omf_browse ..\out\pm.crf --depend ..\out\pm.d)
+I (pm.h)(0x545239EE)
+I (nrf_adc.h)(0x54464392)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+F (.\radio_rx.c)(0x5625019D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\radio_rx.o --omf_browse ..\out\radio_rx.crf --depend ..\out\radio_rx.d)
+I (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x545884B9)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5D)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x55437E4E)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x544F9F99)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+I (..\user\nrf_adc.h)(0x54464392)
+I (..\user\pm.h)(0x545239EE)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x5243EBD8)
+I (led.h)(0x56190145)
+F (.\time.c)(0x52D0EF5D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\time.o --omf_browse ..\out\time.crf --depend ..\out\time.d)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (led.h)(0x56190145)
+I (time.h)(0x52CA3D8F)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+F (..\project_nrf51\Basic\Include_C\nrf_gpio.c)(0x529F2C2F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\nrf_gpio.o --omf_browse ..\out\nrf_gpio.crf --depend ..\out\nrf_gpio.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+F (..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c)(0x56279C0B)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\radio_config.o --omf_browse ..\out\radio_config.crf --depend ..\out\radio_config.d)
+I (..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.h)(0x55444AFE)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+F (..\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c)(0x5451FA65)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\simple_uart.o --omf_browse ..\out\simple_uart.crf --depend ..\out\simple_uart.d)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+F (.\nrf_adc.c)(0x5618FC75)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out --c99-I "D:\Program Files\Keil_v5\ARM\RV31\INC"-I "D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include"-I "D:\Program Files\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include"-DNRF51 -o ..\out\nrf_adc.o --omf_browse ..\out\nrf_adc.crf --depend ..\out\nrf_adc.d)
+I (nrf_adc.h)(0x54464392)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x52FDD27E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x5243D3B6)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm0.h)(0x512C1E62)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (D:\Program Files\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x527759A3)
+I (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x545884B9)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x52FDD27E)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x5243D3B6)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x5243D3B8)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x529D7C5D)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x55437E4E)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x544F9F99)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x527774D4)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x5243D3BA)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x529F3755)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x5243EB68)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x5243EB66)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x5243EB64)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x523BD416)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x5243EB68)
+I (..\user\pm.h)(0x545239EE)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x5243EBD8)
+F (..\project_nrf51\Peripherals\boards\pca10001.h)(0x55437E4E)()

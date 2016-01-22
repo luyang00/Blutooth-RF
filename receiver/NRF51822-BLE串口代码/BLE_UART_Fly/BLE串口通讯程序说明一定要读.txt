@@ -1,0 +1,9 @@
+该文件夹为BLE串口通讯程序,下载该代码可以实现BLE串口通讯
+
+工程文件目录：BLE_UART_Fly\Board\pca10001\s110\experimental\ble_app_uart\arm\ble_app_uart.uvproj
+
+SoftDevice版本:BLE_UART_Fly\s110_nrf51822_6.0.0_softdevice.hex
+
+编译环境：KEIL MDK510
+
+下载说明：使用nRFgo Studio先下载s110_nrf51822_6.0.0_softdevice.hex，然后下载应用代码ble_app_uart.hex

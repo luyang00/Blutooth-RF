@@ -1,0 +1,13 @@
+..\out\time.o: time.c
+..\out\time.o: ..\project_nrf51\Basic\Include_H\nrf51.h
+..\out\time.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\time.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\time.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmInstr.h
+..\out\time.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmFunc.h
+..\out\time.o: ..\project_nrf51\Basic\Include_H\system_nrf51.h
+..\out\time.o: ..\project_nrf51\Basic\Include_H\nrf_gpio.h
+..\out\time.o: ..\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+..\out\time.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\time.o: led.h
+..\out\time.o: time.h
+..\out\time.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h

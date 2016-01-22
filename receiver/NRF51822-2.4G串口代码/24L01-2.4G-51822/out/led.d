@@ -1,0 +1,11 @@
+..\out\led.o: led.c
+..\out\led.o: ..\project_nrf51\Basic\Include_H\nrf51.h
+..\out\led.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\led.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\led.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmInstr.h
+..\out\led.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmFunc.h
+..\out\led.o: ..\project_nrf51\Basic\Include_H\system_nrf51.h
+..\out\led.o: ..\project_nrf51\Basic\Include_H\nrf_gpio.h
+..\out\led.o: ..\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+..\out\led.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\led.o: led.h

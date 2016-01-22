@@ -1,0 +1,17 @@
+..\out\pm.o: pm.c
+..\out\pm.o: pm.h
+..\out\pm.o: nrf_adc.h
+..\out\pm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\out\pm.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf51.h
+..\out\pm.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\pm.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmInstr.h
+..\out\pm.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmFunc.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\system_nrf51.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf_gpio.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+..\out\pm.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf_delay.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\compiler_abstraction.h
+..\out\pm.o: ..\project_nrf51\Basic\Include_H\nrf51_deprecated.h

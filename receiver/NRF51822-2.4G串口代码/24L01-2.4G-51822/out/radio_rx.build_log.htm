@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Joy Euler, EulerSpace, LIC=03C01-CDH2T-Z8SFH-W2LAT-5EIBC-3KHJQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\radio_rx.uvprojx
+Project File Date:  01/21/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling project_nrf51822.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+..\project_nrf51\Basic\startup\project_nrf51822.c: 1 warning, 0 errors
+compiling system_nrf51.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+..\project_nrf51\Basic\startup\system_nrf51.c: 1 warning, 0 errors
+compiling nrf_delay.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+..\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c: 1 warning, 0 errors
+compiling led.c...
+compiling pm.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+pm.c(201): warning:  #177-D: variable "batteryLowTime" was declared but never referenced
+    uint32_t batteryLowTime;
+pm.c(11): warning:  #177-D: variable "batteryVRawFilt" was declared but never referenced
+  static int32_t  batteryVRawFilt = PM_BAT_ADC_FOR_3_VOLT;
+pm.c(12): warning:  #177-D: variable "batteryVRefRawFilt" was declared but never referenced
+  static int32_t  batteryVRefRawFilt = PM_BAT_ADC_FOR_1p2_VOLT;
+pm.c(13): warning:  #177-D: variable "batteryLowTimeStamp" was declared but never referenced
+  static uint32_t batteryLowTimeStamp;
+pm.c(14): warning:  #177-D: variable "batteryCriticalLowTimeStamp" was declared but never referenced
+  static uint32_t batteryCriticalLowTimeStamp;
+pm.c(16): warning:  #177-D: variable "pmState" was declared but never referenced
+  static PMStates pmState;
+pm.c(94): warning:  #177-D: function "pmSetBatteryVoltage" was declared but never referenced
+  static void pmSetBatteryVoltage(float voltage)
+pm.c(111): warning:  #177-D: function "pmSystemShutdown" was declared but never referenced
+  static void pmSystemShutdown(void)
+pm.c(122): warning:  #177-D: function "pmBatteryChargeFromVoltage" was declared but never referenced
+  static int32_t pmBatteryChargeFromVoltage(float voltage)
+pm.c: 10 warnings, 0 errors
+compiling radio_rx.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+radio_rx.c(206): warning:  #177-D: variable "led_Blink_Cnt" was declared but never referenced
+        uint8_t led_Blink_Cnt=0;
+radio_rx.c: 2 warnings, 0 errors
+compiling time.c...
+compiling nrf_gpio.c...
+compiling radio_config.c...
+..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c(138): warning:  #61-D: integer operation result is out of range
+    
+RF_RADIO->BASE0   = (0xE7<<24)  // 通??0?母??纸?E7
+..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c(77): warning:  #177-D: function "bytewise_bitswap" was declared but never referenced
+  static uint32_t bytewise_bitswap(uint32_t inp)
+..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c: 2 warnings, 0 errors
+compiling simple_uart.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+..\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c: 1 warning, 0 errors
+compiling nrf_adc.c...
+..\project_nrf51\Basic\Include_H\nrf.h(16): warning:  #47-D: incompatible redefinition of macro "NRF51"
+  #define NRF51
+nrf_adc.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2376 RO-data=224 RW-data=12 ZI-data=4292  
+FromELF: creating hex file...
+"..\out\radio_rx.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

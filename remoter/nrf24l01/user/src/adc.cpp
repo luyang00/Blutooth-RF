@@ -1,0 +1,69 @@
+#include "adc.h"
+#include <stdint.h>
+#include "stm32f4xx_rcc.h"
+	F4ADC::F4ADC(ADC_TypeDef* ADCx,uint8_t ADC_Channel)
+	{
+		this->ADCx=ADCx;
+		this->ADC_Channel=ADC_Channel;
+		ADC_InitTypeDef ADC_InitStructure;
+		ADC_CommonInitTypeDef ADC_CommonInitStructure;
+		//open all ADC Clock And GPIO clock 
+		RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC|RCC_APB2Periph_ADC1|RCC_APB2Periph_ADC2|RCC_APB2Periph_ADC3, ENABLE);
+		RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOB|RCC_AHB1Periph_GPIOC|RCC_AHB1Periph_GPIOD, ENABLE);
+		//Init ADC config:
+		ADC_CommonInitStructure.ADC_Mode = ADC_Mode_Independent;
+		ADC_CommonInitStructure.ADC_Prescaler = ADC_Prescaler_Div2;
+		ADC_CommonInitStructure.ADC_DMAAccessMode = ADC_DMAAccessMode_Disabled;
+		ADC_CommonInitStructure.ADC_TwoSamplingDelay = ADC_TwoSamplingDelay_5Cycles;
+		ADC_CommonInit(&ADC_CommonInitStructure);
+		
+		ADC_InitStructure.ADC_Resolution = ADC_Resolution_12b;
+		ADC_InitStructure.ADC_ScanConvMode = DISABLE;
+		ADC_InitStructure.ADC_ContinuousConvMode = ENABLE;
+		ADC_InitStructure.ADC_ExternalTrigConvEdge = ADC_ExternalTrigConvEdge_None;
+		ADC_InitStructure.ADC_ExternalTrigConv = ADC_ExternalTrigConv_T1_CC1;
+		ADC_InitStructure.ADC_DataAlign = ADC_DataAlign_Right;
+		ADC_InitStructure.ADC_NbrOfConversion = 1;
+		
+		ADC_Init(ADCx, &ADC_InitStructure);
+		ADC_RegularChannelConfig(ADCx, ADC_Channel, 1, ADC_SampleTime_480Cycles);
+		ADC_Cmd(ADCx, ENABLE);
+	}
+	int F4ADC::ADC1_SelectChannel()
+	{
+		GPIO_InitTypeDef GPIO_InitStructure;
+		//if (ADC_Channel > 9)return 0;
+		// Configure GPIO as analog input
+		if(ADC_Channel == ADC_Channel_10)
+		{
+			GPIO_InitStructure.GPIO_Pin = 1;
+			GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
+			GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+			GPIO_Init(GPIOC, &GPIO_InitStructure);
+		}
+		else if (ADC_Channel == ADC_Channel_11)
+		{
+			GPIO_InitStructure.GPIO_Pin = 2;
+			GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
+			GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+			GPIO_Init(GPIOC, &GPIO_InitStructure);
+		}
+		else 
+		{
+			GPIO_InitStructure.GPIO_Pin = (1 << (ADC_Channel%8));
+			GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AIN;
+			GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+			GPIO_Init(ADC_Channel>=8?GPIOB:GPIOA, &GPIO_InitStructure);
+		}
+		ADC_RegularChannelConfig(ADCx, ADC_Channel, 1, ADC_SampleTime_480Cycles);	
+		return 1;
+	}
+
+	int	F4ADC::read()
+	{
+		ADC1_SelectChannel();
+		ADC_ClearFlag(ADCx, ADC_FLAG_EOC);
+		ADC_SoftwareStartConv(ADCx);
+		while (ADC_GetFlagStatus(ADCx, ADC_FLAG_EOC) == RESET);
+		return ADC_GetConversionValue(ADCx);
+	}

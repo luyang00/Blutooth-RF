@@ -1,0 +1,17 @@
+--cpu Cortex-M0
+"..\out\arm_startup_nrf51.o"
+"..\out\project_nrf51822.o"
+"..\out\system_nrf51.o"
+"..\out\nrf_delay.o"
+"..\out\led.o"
+"..\out\pm.o"
+"..\out\radio_rx.o"
+"..\out\time.o"
+"..\out\nrf_gpio.o"
+"..\out\radio_config.o"
+"..\out\simple_uart.o"
+"..\out\nrf_adc.o"
+--strict --scatter "..\out\radio_rx.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\out\radio_rx.map" -o ..\out\radio_rx.axf

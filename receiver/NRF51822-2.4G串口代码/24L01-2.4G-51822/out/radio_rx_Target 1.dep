@@ -1,0 +1,185 @@
+Dependencies for Project 'radio_rx', Target 'Target 1': (DO NOT MODIFY !)
+F (..\project_nrf51\Basic\startup\arm_startup_nrf51.s)(0x56299BCB)(--cpu Cortex-M0 -g --apcs=interwork -I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "NRF51 SETA 1"--list ..\out\arm_startup_nrf51.lst --xref -o ..\out\arm_startup_nrf51.o --depend ..\out\arm_startup_nrf51.d)
+F (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x56299BCB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\project_nrf51822.o --omf_browse ..\out\project_nrf51822.crf --depend ..\out\project_nrf51822.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x56299BCC)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x56299BD0)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x56299BC5)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x56299BCC)
+I (..\user\nrf_adc.h)(0x56299BAA)
+I (..\user\pm.h)(0x56299BAA)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x56299BC2)
+F (..\project_nrf51\Basic\startup\system_nrf51.c)(0x56299BCA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\system_nrf51.o --omf_browse ..\out\system_nrf51.crf --depend ..\out\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+F (..\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.c)(0x56299BE8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\nrf_delay.o --omf_browse ..\out\nrf_delay.crf --depend ..\out\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+I (..\project_nrf51\Basic\Include_C\nrf_delay\nrf_delay.h)(0x56299BE7)
+F (.\led.c)(0x56299BAB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\led.o --omf_browse ..\out\led.crf --depend ..\out\led.d)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (led.h)(0x56299BAB)
+F (.\pm.c)(0x56299BAA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\pm.o --omf_browse ..\out\pm.crf --depend ..\out\pm.d)
+I (pm.h)(0x56299BAA)
+I (nrf_adc.h)(0x56299BAA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+F (.\radio_rx.c)(0x56A0B1EF)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\radio_rx.o --omf_browse ..\out\radio_rx.crf --depend ..\out\radio_rx.d)
+I (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x56299BCB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x56299BCC)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x56299BD0)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x56299BC5)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x56299BCC)
+I (..\user\nrf_adc.h)(0x56299BAA)
+I (..\user\pm.h)(0x56299BAA)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x56299BC2)
+I (led.h)(0x56299BAB)
+F (.\time.c)(0x56299BA8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\time.o --omf_browse ..\out\time.crf --depend ..\out\time.d)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (led.h)(0x56299BAB)
+I (time.h)(0x56299BA8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+F (..\project_nrf51\Basic\Include_C\nrf_gpio.c)(0x56299BD1)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\nrf_gpio.o --omf_browse ..\out\nrf_gpio.crf --depend ..\out\nrf_gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+F (..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.c)(0x56299BE7)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\radio_config.o --omf_browse ..\out\radio_config.crf --depend ..\out\radio_config.d)
+I (..\project_nrf51\Basic\Include_C\nrf_radio\radio_config.h)(0x56299BE6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+F (..\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c)(0x56299BE6)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\simple_uart.o --omf_browse ..\out\simple_uart.crf --depend ..\out\simple_uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x56299BCC)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+F (.\nrf_adc.c)(0x56299BAB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I..\project_nrf51\Basic\Include_H -I..\project_nrf51\Basic\startup -I..\project_nrf51\Basic\Include_C\nrf_delay -I..\project_nrf51\Peripherals\boards -I..\project_nrf51\Peripherals\radio_config -I..\user -I..\out -I..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc --c99-I Z:\Code\FHSS_NRF\nrf51822\51822-2.4G串口&BLE串口\51822-2.4G串口&BLE串口\NRF51822-2.4G串口代码\24L01-2.4G-51822\user\RTE-I C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.0.3\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DNRF51-o ..\out\nrf_adc.o --omf_browse ..\out\nrf_adc.crf --depend ..\out\nrf_adc.d)
+I (nrf_adc.h)(0x56299BAA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\project_nrf51\Basic\Include_H\nrf51.h)(0x56299BCE)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cm0.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmInstr.h)(0x00000000)
+I (..\..\..\NRF51822-BLE涓插彛浠ｇ爜\BLE_UART_Fly\Include\gcc\core_cmFunc.h)(0x00000000)
+I (..\project_nrf51\Basic\Include_H\system_nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\startup\project_nrf51822.c)(0x56299BCB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\project_nrf51\Basic\startup\nrf51.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf51_bitfields.h)(0x56299BD1)
+I (..\project_nrf51\Basic\Include_H\boards.h)(0x56299BD0)
+I (..\project_nrf51\Peripherals\boards\pca10001.h)(0x56299BC5)
+I (..\project_nrf51\Basic\Include_H\usbjtag.H)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\nrf_delay.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf.h)(0x56299BCF)
+I (..\project_nrf51\Basic\Include_H\compiler_abstraction.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\nrf51_deprecated.h)(0x56299BD9)
+I (..\project_nrf51\Basic\Include_H\nrf_gpio.h)(0x56299BD0)
+I (..\project_nrf51\Basic\Include_H\simple_uart.h)(0x56299BCC)
+I (..\project_nrf51\Basic\Include_H\spi_master.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_ecb.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_gpiote.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\nrf_nvmc.h)(0x56299BCD)
+I (..\project_nrf51\Basic\Include_H\twi_master.h)(0x56299BCC)
+I (..\user\pm.h)(0x56299BAA)
+I (..\project_nrf51\Peripherals\radio_config\radio_config.h)(0x56299BC2)
+F (..\project_nrf51\Peripherals\boards\pca10001.h)(0x56299BC5)()

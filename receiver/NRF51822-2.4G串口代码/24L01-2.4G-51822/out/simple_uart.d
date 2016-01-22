@@ -1,0 +1,16 @@
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_C\simple_uart\simple_uart.c
+..\out\simple_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\compiler_abstraction.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf51.h
+..\out\simple_uart.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\simple_uart.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmInstr.h
+..\out\simple_uart.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cmFunc.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\system_nrf51.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf51_bitfields.h
+..\out\simple_uart.o: ..\..\..\NRF51822-BLE串口代码\BLE_UART_Fly\Include\gcc\core_cm0.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf51_deprecated.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\simple_uart.h
+..\out\simple_uart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf_delay.h
+..\out\simple_uart.o: ..\project_nrf51\Basic\Include_H\nrf_gpio.h
